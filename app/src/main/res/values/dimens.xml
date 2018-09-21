@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="bottom_size">10sp</dimen>
+    <dimen name="shopping_details_text_height">48dp</dimen>
+    <dimen name="toolbar_height">48dp</dimen>
+    <dimen name="logistics_padding">15dp</dimen>
+    <dimen name="logistics_margin_top">15dp</dimen>
+    <dimen name="logistics_left_margin">80dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="qr_code_image_size">160dp</dimen>
+    <dimen name="small_img">40dp</dimen>
+    <dimen name="margin">5dp</dimen>
+    <dimen name="selector_coupon_margin">16dp</dimen>
+    <dimen name="confirm_order_divider_height">10dp</dimen>
+    <dimen name="input_phone_height">48dp</dimen>
+    <dimen name="product_param_text_padding_tb">3dp</dimen>
+    <dimen name="product_param_text_padding_lr">15dp</dimen>
+    <dimen name="toolbar_title_size">18sp</dimen>
+    <dimen name="button_margin_bottom">16dp</dimen>
+    <dimen name="common_button_radius">50dp</dimen>
+    <dimen name="order_list_button_radius">100dp</dimen>
+    <dimen name="button_radius">20dp</dimen>
+    <dimen name="item_store_text_margin">8dp</dimen>
+    <dimen name="item_store_text_size">12sp</dimen>
+    <dimen name="item_province_text_height">40dp</dimen>
+    <dimen name="refund_status_left_margin">31dp</dimen>
+    <dimen name="refund_info_left_margin">31dp</dimen>
+    <dimen name="refund_info_right_margin">31dp</dimen>
+    <dimen name="min_header_height">76dp</dimen>
+    <dimen name="button_margin_l_r">64dp</dimen>
+    <dimen name="button_height">40dp</dimen>
+</resources>

@@ -10,6 +10,7 @@ import android.view.View
 import android.widget.ProgressBar
 import android.widget.TextView
 import android.widget.Toast
+import com.example.panhe.noxintong.App
 import com.example.panhe.noxintong.R
 import com.example.panhe.noxintong.constant.PREFS_KEY
 
@@ -28,3 +29,22 @@ fun Context.toast(msg: String, length: Int = Toast.LENGTH_SHORT) {
     }
 }
 
+ fun Context.isPhoneNumberCorrectOrShowErrorToast(phone: String): Boolean {
+
+    if (TextUtils.isEmpty(phone)) {
+        this.toast(this.resources.getString(R.string.please_input_phone_number))
+        return false
+    }
+
+    if (!phone.startsWith("1")) {
+        this.toast(this.resources.getString(R.string.phone_number_format_is_ncorrect))
+        return false
+    }
+
+    if (phone.length != 11) {
+        this.toast(this.resources.getString(R.string.phone_number_format_is_ncorrect))
+        return false
+    }
+
+    return true
+}

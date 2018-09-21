@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#ff0000</color>
+    <color name="colorPrimaryDark">#ff0000</color>
     <color name="colorAccent">#FF4081</color>
+
+
+    <color name="line">#f5f5f5</color>
+    <color name="color_b5b5b5">#b5b5b5</color>
+    <color name="line_dark">#eeeeee</color>
+    <color name="button_red">@color/colorPrimary</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_dddddd">#dddddd</color>
+    <color name="color_e60012">#e60012</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+
+    <!-- 上面是色值,下面是引用名 -->
+    <color name="tab_normal_color">@color/black</color>
+    <color name="tab_selected_color">@color/colorPrimary</color>
+    <color name="text_normal">@color/color_333333</color>
 </resources>

@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">NoXinTong</string>
+    <string name="government_affairs">政务</string>
+    <string name="message">消息</string>
+    <string name="mutual_help">互助</string>
+    <string name="my">我的</string>
+    <string name="network_error">网络断开了</string>
+    <string name="please_input_v_code">请输入验证码</string>
+    <string name="please_input_phone_number">请输入手机号</string>
+    <string name="please_input_password">请输登录密码</string>
+    <string name="phone_number_format_is_ncorrect">手机号格式不正确</string>
 </resources>
