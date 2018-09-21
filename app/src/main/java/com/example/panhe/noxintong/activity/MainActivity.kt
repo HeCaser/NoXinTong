@@ -1,5 +1,6 @@
 package com.example.panhe.noxintong.activity
 
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v4.app.Fragment
@@ -19,14 +20,18 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
         fragmentList.add(HomeFragment())
         fragmentList.add(MessageFragment())
         fragmentList.add(HelpFragment())
         fragmentList.add(MyFragment())
         viewPager.adapter = PagerAdapter(supportFragmentManager)
         bottomBar.setViewPager(viewPager)
+        bottomBar.setUnread(1, 10)
 
-        bottomBar.setUnread(1,10)
+        Intent(this,LoginActivity::class.java).apply {
+            startActivity(this)
+        }
     }
 
     inner class PagerAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm) {
