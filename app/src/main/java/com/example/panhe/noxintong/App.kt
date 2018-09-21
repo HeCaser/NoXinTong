@@ -16,6 +16,12 @@ import com.lzy.okgo.model.HttpParams
 
 
 class App : Application() {
+
+    companion object {
+        var context: Context? = null
+        fun context(): Context? = context
+    }
+
     override fun attachBaseContext(base: Context?) {
         super.attachBaseContext(base)
         MultiDex.install(this)
@@ -25,6 +31,7 @@ class App : Application() {
         super.onCreate()
         initLogger()
         initOkGo()
+        context = this
     }
 
     private fun initOkGo() {
